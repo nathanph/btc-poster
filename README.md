@@ -17,6 +17,9 @@ Bitcoin is a payment network built atop blockchain technology. This system allow
 
 Relevant BIPs: bip-0038, bip-0032,bip-0039.  
 
+## Goals
+BIP-0039 is a Bitcoin Improvement Proposal for generating mnemonic "sentences", groups of randomly selected memorable words. These mnemonic sentences can be hashed to generate strong seeds for use as input to PRNGs (Pseudo Random Number Generators). The output of a PRNG can be used to create, store, and recover bitcoin addresses. This collective behavior is known as a deterministic wallet.
+
 ## Methods
 Scrypt.  
 Dictionary.  
